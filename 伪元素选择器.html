@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>伪元素选择器</title>
+</head>
+<style>
+    div::first-letter {
+        color: red;
+        font-size: 40px;
+    }
+    div::first-line {
+        color: rgb(119, 255, 0);
+        font-size: 40px;
+    }
+    div::selection {
+        background-color: bisque;
+    }
+    input::placeholder {
+        color: aquamarine;
+    }
+    p::before {
+        content: '$';
+    }
+</style>
+<body>
+    <div>Love Youdfdfdfdf
+    </div>
+    <input type="text" name="" id="" placeholder="输入域账号">
+    <p>199</p>
+    <p>199</p>
+    <p>199</p>
+    <p>199</p>
+    <p></p>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格属性</title>
+    <style>
+        table {
+            border-width: 1px;
+            border-color: rgb(33, 223, 223);
+            border-style: solid;
+            border: 1px rgb(33, 223, 223) solid;
+            width: 300px;
+            table-layout: fixed;
+            border-spacing: 0px;
+            caption-side: top;
+            
+        }
+        td,th {
+            border: 1px rgb(33, 223, 223) solid;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>人员信息</caption>
+        <thead>
+            <tr>
+                <th>序号</th>
+                <th>姓名</th>
+                <th>身份证</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>张</td>
+                <td>234342</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>李</td>
+                <td>234343</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>王</td>
+                <td>234344</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">总人数</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

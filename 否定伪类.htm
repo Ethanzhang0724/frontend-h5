@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>否定</title>
+    <style>
+        div>p:not(.fail) {
+            color: brown;
+        }
+        div>p:not([title^='jiayou']) {
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>98</p>
+        <p>98</p>
+        <p>98</p>
+        <p>98</p>
+        <p>98</p>
+        <p class="fail" title="jiayou">59</p>
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>粘性定位</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: yellow;
+            text-align: center;
+            font-size: larger;
+        }
+        .first {
+            background-color: skyblue;
+            font-size: 40px;
+            position: sticky;
+            top: 0px;
+        }
+        body {
+            height: 2000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">头部区域</div>
+    <div class="content">
+        <div class="item">
+            <div class="first">A</div>
+            <h2 class="A1">A1</h2>
+            <h2 class="A2">A2</h2>
+            <h2 class="A3">A3</h2>
+            <h2 class="A4">A4</h2>
+            <h2 class="A5">A5</h2>
+            <h2 class="A6">A6</h2>
+            <div class="first">B</div>
+            <h2 class="B1">B1</h2>
+            <h2 class="B2">B2</h2>
+            <h2 class="B3">B3</h2>
+            <h2 class="B4">B4</h2>
+            <h2 class="B5">B5</h2>
+            <h2 class="B6">B6</h2>
+            <div class="first">C</div>
+            <h2 class="C1">C1</h2>
+            <h2 class="C2">C2</h2>
+            <h2 class="C3">C3</h2>
+            <h2 class="C4">C4</h2>
+            <h2 class="C5">C5</h2>
+            <h2 class="C6">C6</h2>
+        </div>
+    </div>
+</body>
+</html>

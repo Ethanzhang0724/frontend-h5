@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID选择器</title>
+    <style>
+        #hh {
+            color: aquamarine;
+        }
+        .hh {
+            color: black;
+        }
+        .hhh {
+            color: green;
+        }
+        /* 交集选择器 */
+        p.hhh {
+            color: brown;
+        }
+        /* 并集选择器 */
+        .hh1,.hh2,.hh3 {
+            color: aquamarine;
+            background-color: azure;
+        }
+        /*  */
+
+    </style>
+</head>
+<body>
+    <div id="hh">测试一下</div>
+    <div class="hh hhh">测试一下</div>
+    <p class="hhh">测试一下</p>
+    <p class="hhh hh">测试</p>
+</body>
+</html>
