@@ -1,7 +1,8 @@
 /* 基础设置 */
 .container {
-    width: 1190px;
+    width: 900px;
     margin: 0 auto;
+    
 }
 
 /* #region顶部导航条start */
