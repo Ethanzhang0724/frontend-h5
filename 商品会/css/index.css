@@ -178,9 +178,70 @@
     width: 290px;
     height: 158px;
     border:1px solid black;
+    /* padding: 0 10px; */
 }
 
-.main-content .slide-other {
+.slide-other .message .tittle {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: #8e3e3e;
+    padding: 0 10px;
+}
 
+.slide-other .other-nav {
+    width: 290px;
+    height: 290px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.slide-other .msg-list li{
+    padding: 0 10px ; 
+    height: 20px;
+    line-height: 20px;
+
+}
+.other-nav-list li {
+    width: 38px;
+    height: 50px;
+    background-color: skyblue;
+    float: left;
+    margin: 1px 10px;
+    line-height: 50px;
+    text-align: center;
+    
+}
+.other-nav-list li span {
+
+}
+
+.other-nav-list:first-child {
+    margin-top: 10px;
+}
+
+.other-nav-list:nth-child(2) {
+    margin: 10px 0;
+}
+
+.other-nav-list .picture {
+    width: 48px;
+    height: 45px;
+    background-image: url("../image/精灵图-侧边功能.png");
+    background-position: -5px 0px;
+}
+.seckill img {
+    float: left;
+    width: 160px;
+    margin: 10px 1px;
+    cursor: pointer;
+    height: 160px;
+}
+
+.line {
+    height: 0px;
+    color:blueviolet;
+    margin: 20px 0px;
+    border: 1px solid red;
 }
 
