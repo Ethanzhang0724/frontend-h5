@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box2 {
+            width: 50vw;
+            background-color: aqua;
+            height: 20vh;
+            /* border-box 与 content box 区别 */
+            box-sizing: border-box;
+            resize: both;
+            /* 溢出 */
+            overflow: auto;
+            /* 水平未知 垂直位置 模糊程度 阴影大小 阴影颜色 内阴影*/
+            box-shadow: 10px 10px 10px blue inset;
+            /* 透明度 */
+            opacity: 0.2;
+            text-align: center;
+            line-height: 20vh;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="box2">
+        box2
+    </div>
+    <div class="box">
+        box
+    </div>
+</body>
+</html>
