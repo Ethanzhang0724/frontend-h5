@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>过渡</title>
+    <style>
+        .box1 {
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            /* 过渡 */
+            /* transition-property:"height","width","backgroud-color"; */
+            /* all代表能过渡的元素 */
+            transition-property: all;
+            transition-duration: 1s;
+            transition-delay: 1s;
+            /*  */
+            transition-timing-function: linear;
+            opacity: 0.5;
+        }
+        .box1:hover {
+            height: 400px;
+            width: 400px;
+            background-color: rgb(165, 165, 64);
+            transform: rotate(30deg);
+            opacity: 1.0;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box1"></div>
+    </div>
+</body>
+</html>
